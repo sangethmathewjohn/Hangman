@@ -52,4 +52,4 @@ while not gameover:
 if dis == display:
   print(f"Congrats!!! You found the letters in {word}")
 else:
-  print(f"You dids not found  the letter in the {word}")
+  print(f"You did not found  the letter in the {word}")
