@@ -43,7 +43,7 @@ while not gameover:
   for d in display:
     disword += d + " "
     
-  if dis==display or (flag > len(arts.stages)-2):
+  if dis==display or (flag > len(arts.stages)-1):
       gameover = True   
   else:
       gameover = False
