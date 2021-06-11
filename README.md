@@ -1,6 +1,6 @@
 # Hangman
 
-##### This program is game called hangman, which ask us to fill the missing letters in a word within a specified chances. It already contain a wordlist of more than 200 words and you can increase it by adding words to the list in wordlist.py 
+### This program is game called hangman, which ask us to fill the missing letters in a word within a specified chances. It already contain a wordlist of more than 200 words and you can increase it by adding words to the list in wordlist.py 
 
 
 ## PROGRAM
