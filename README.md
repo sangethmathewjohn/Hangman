@@ -39,17 +39,20 @@
             print(f"{arts.stages[flag]}")
             guess =input("Guess the Letter : ").lower()
             disword=""
+            
             if not guess in word:
               flag +=1
             if guess in display:
               flag +=1
+            
             for i in range(length):
               if word[i]== guess:
                 display[i] = guess
+            
             for d in display:
               disword += d + " "
 
-            if dis==display or (flag > len(arts.stages)-2):
+            if dis==display or (flag > len(arts.stages)-1):
                 gameover = True   
             else:
                 gameover = False
@@ -78,7 +81,7 @@
             |   |
             O   |
            /|\  |
-           /    |
+           / \  |
                 |
           =========
 
