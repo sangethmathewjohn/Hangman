@@ -2,6 +2,8 @@
 
 ##### This program is game called hangman, which ask us to fill the missing letters in a word within a specified chances.
 
+## PROGRAM
+
           import wordlist
           import random
           import arts
@@ -57,3 +59,27 @@
           else:
             print(f"You did not found  the letter in the {word}")
   
+## OUTPUT
+
+          _                                             
+          | |                                            
+          | |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
+          | '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
+          | | | | (_| | | | | (_| | | | | | | (_| | | | |
+          |_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
+                              __/ |                      
+                             |___/    
+
+          Find the MISSING letter in the word:
+          p o l _ a 
+
+            +---+
+            |   |
+            O   |
+           /|\  |
+           /    |
+                |
+          =========
+
+          Guess the Letter : l
+          You dids not found  the letter in the polka
